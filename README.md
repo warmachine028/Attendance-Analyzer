@@ -1,6 +1,6 @@
 ![](previews/attendance_visualizer.jpg)
 
-# ATTENDANCE ANALYZER
+# [ATTENDANCE ANALYZER]()
 
 ## Table of Contents
 
@@ -8,13 +8,16 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
 
 ## Introduction
 
-![](previews/pdf_preview.png)
-- A few weeks back our University released aa attendance record pdf like this
-- Everyone was manually finding the student having highest and lowest attendance.   
+
+- A few weeks back our University released an attendance record pdf like this:
+  ![](previews/pdf_preview.png)
+- Everyone were manually trying to find the student having highest and lowest attendance.   
 - So I thought why not automate this and let python do the job for us.   
 - I quickly used [camelot] to convert the pdf to csv and used [pandas] to analyse the csv. 
 - It wasn't that smooth to convert the pdf to csv. But I somehow figured it out by some trial and errors.
@@ -32,7 +35,7 @@ $ pip install camelot
 $ pip install pandas
 ```
 ### Installation
-- This is a CLI project so it doesn't need an installation. Just Click and run :)
+- This is a CLI project so, it doesn't need an installation. Just Download and run :)
 - I've already added a dummy `PDF` file and its `csv` converted version to the repo for testing.
 - If you want to use you own PDF then convert it to csv using _camelot_ and play around with it.
 
@@ -49,8 +52,6 @@ Welcome to Student Attendance Analyzer
 
 
 ```shell
-Welcome to Student Attendance Analyzer
-
  0. Exit
  1. View All Student Records
  2. View particular student Record with FULL NAME
@@ -65,7 +66,7 @@ Welcome to Student Attendance Analyzer
 11. Standard Deviation/Bell Curve of this Record
 Enter your choice:
 ```
-A menu will prompt you to choose from the following available features.
+This menu will prompt you to choose from the following available features.
  
 ## Features
 
@@ -153,9 +154,18 @@ Standard Deviation of % of Attendance is 22.30
 </details>
 
 
+## Contributing
+Here's how we suggest you go about proposing a change to this project:
+1. [Fork this project] to your account.
+2. [Create a branch] for the changes that you desire to make.
+3. Commit and Push your changes to your fork
+4. [Send a pull request] from your fork's branch to this `master` branch
 
-
+## License
 
 
 [camelot]: https://camelot-py.readthedocs.io/en/master/index.html
 [pandas]: https://pandas.pydata.org/
+[Fork this project]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+[Create a branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
+[Send a pull request]: https://help.github.com/articles/using-pull-requests/
