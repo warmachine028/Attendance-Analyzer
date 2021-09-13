@@ -1,7 +1,0 @@
-__pycache__/
-.mypy_cache/
-.ipynb_checkpoints/__pycache__
-idea/
-data/__pycache__
-.gitignore
-.idea
