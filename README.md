@@ -162,8 +162,14 @@ Here's how we suggest you go about proposing a change to this project:
 4. [Send a pull request] from your fork's branch to this `master` branch
 
 ## License
+- See [LICENSE]
 
+##
+**Pritam, 2021**
 
+<!-- Links -->
+
+[license]: https://github.com/warmachine028/Attendance-Analyzer/blob/main/LICENSE
 [camelot]: https://camelot-py.readthedocs.io/en/master/index.html
 [pandas]: https://pandas.pydata.org/
 [Fork this project]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
