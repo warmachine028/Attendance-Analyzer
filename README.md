@@ -102,24 +102,27 @@ form a particular attendance sector then use the pie chart <br><br>
 This will be helpful to quickly recognize students who are in danger and would need to 
 improve their attendance quickly.<br>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight">
-<code>Enter your choice: 5
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter your choice: 5
 
 Students having (% of Attendance <= 50%):
-A 2 12020009028032 304202000900861 ABE GUERRERO 50.0  
-A 3 12020009023048 304202000900745 ABEL ROY 32.3 A 4 12020009022284 304202000901049 ABNER BATES 49.0  
+A 2 12020009028032 304202000900861 ABE GUERRERO 50.0
+A 3 12020009023048 304202000900745 ABEL ROY 32.3
+A 4 12020009022284 304202000901049 ABNER BATES 49.0
 :         :             :           :            :
-:         :             :           :            :  
-L 67 12020009001283 304202000900283 WONG VELEZ 39.1 L 70 12020009023112 304202000900809 WYATT HAMMOND 25.0
+:         :             :           :            : 
+L 67 12020009001283 304202000900283 WONG VELEZ 39.1
+L 70 12020009023112 304202000900809 WYATT HAMMOND 25.0
 
 Enter your choice: 6
 
 Students in danger zone (% of Attendance <= 20%):
-A 18 12020009022063 304202000900530 CAREY PATTON 12.5 A 25 12020009022025 304202000900492 EARLY HOOVER 10.4 A 34
-12020009022285 304202000901050 GARFIELD GONZALES 10.4
+A 18 12020009022063 304202000900530 CAREY PATTON 12.5
+A 25 12020009022025 304202000900492 EARLY HOOVER 10.4
+A 34 12020009022285 304202000901050 GARFIELD GONZALES 10.4
 :         :             :           :            :
 :         :             :           :            :
-L 64 12020009001224 304202000900224 WINFIELD GRIFFIN 7.6 L 66 12020009001122 304202000900122 WM BUCHANAN 17.4
+L 64 12020009001224 304202000900224 WINFIELD GRIFFIN 7.6
+L 66 12020009001122 304202000900122 WM BUCHANAN 17.4
 
 </code> </pre></div></div>
 </details>
@@ -147,8 +150,13 @@ K 41 12020009001262 304202000900262 LUIS CHARLES 6.5
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight">
 <code>Enter your choice: 7
 
-Minimum % of Attendance is 6.5 Maximum % of Attendance is 97.9 Mean % of Attendance is 67.03 Median % of Attendance is
-75.00 Mode % of Attendance is 75.0 Variance of % of Attendance is 497.43 Standard Deviation of % of Attendance is 22.30
+Minimum % of Attendance is 6.5 
+Maximum % of Attendance is 97.9 
+Mean % of Attendance is 67.03 
+Median % of Attendance is 75.00 
+Mode % of Attendance is 75.0 
+Variance of % of Attendance is 497.43 
+Standard Deviation of % of Attendance is 22.30
 
 </code> </pre></div></div>
 </details>
