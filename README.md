@@ -187,4 +187,4 @@ Here's how we suggest you go about proposing a change to this project:
 
 [Send a pull request]: https://help.github.com/articles/using-pull-requests/
 
-[Attendance Analyzer]: (https://warmachine028.github.io/Attendance-Analyzer/#getting-started
+[Attendance Analyzer]: https://warmachine028.github.io/Attendance-Analyzer
