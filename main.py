@@ -125,7 +125,7 @@ while True:
     elif choice == 2:
         Name = input('Enter name of specific student: ').upper()
         records = df.loc[df['Student Name'] == Name].values
-        print(records if records else "This name doesn't doesnt exist. Please recheck his spelling")
+        print(records if records.size > 0 else "This name doesn't doesnt exist. Please recheck his spelling")
 
     elif choice == 3:
         maxi_data, *_ = df[df[Att] == max(df[Att])].values
